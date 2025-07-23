@@ -1,0 +1,187 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Movieflix</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>🎬 Movieflix</h1>
+    <p>Watch & Download Movies & Series</p>
+    <input type="text" id="searchInput" placeholder="Search for a show...">
+    <h2 style="color: gold; font-size: 2rem;">🔥 Trending Shows</h2>
+<p style="color: lime; font-size: 1.2rem;">Watch your favorite dramas in HD!</p>
+  </header>  <nav>
+    <button class="filter" data-category="all">All</button>
+    <button class="filter" data-category="kdrama">K-Drama</button>
+    <button class="filter" data-category="cdrama">C-Drama</button>
+    <button class="filter" data-category="anime">Anime</button>
+    <button class="filter" data-category="action">Action</button>
+    <button class="filter" data-category="mystery">Mystery</button>
+    <button class="filter" data-category="fantasy">Fantasy</button>
+    <button class="filter" data-category="romance">Romance</button>
+    <button class="filter" data-category="thriller">Thriller</button>
+  </nav>  <main id="movieList">
+    <!-- Sample Entries, can be duplicated and expanded --><!-- K-Drama -->
+<section class="movie" data-title="Squid Game" data-category="kdrama">
+  <img src="images/images.jpeg" alt="Squid Game">
+  <h2>Squid Game</h2>
+  <a class="watch" href="https://drive.google.com/file/d/1abc123/view" target="_blank">▶️ Watch</a>
+  <a class="download" href="https://drive.google.com/uc?export=download&id=1abc123" target="_blank">⬇️ Download</a>
+</section>
+
+<!-- C-Drama -->
+<section class="movie" data-title="Hidden Love" data-category="cdrama">
+  <img src="images/hiddenlove.jpeg" alt="Hidden Love">
+  <h2>Hidden Love</h2>
+  <a class="watch" href="https://drive.google.com/file/d/3ghi789/view" target="_blank">▶️ Watch</a>
+  <a class="download" href="https://drive.google.com/uc?export=download&id=3ghi789" target="_blank">⬇️ Download</a>
+</section>
+
+<!-- Anime -->
+<section class="movie" data-title="Demon Slayer" data-category="anime">
+  <img src="images/img_load_17.jpg" alt="Demon Slayer">
+  <h2>Demon Slayer</h2>
+  <a class="watch" href="https://drive.google.com/file/d/6pqr777/view" target="_blank">▶️ Watch</a>
+  <a class="download" href="https://drive.google.com/uc?export=download&id=6pqr777" target="_blank">⬇️ Download</a>
+</section>
+
+<!-- Mystery -->
+<section class="movie" data-title="Lord of the Mysteries" data-category="anime">
+  <img src="images/lordofmysteries.jpeg" alt="Lord of the Mysteries">
+  <h2>Lord of the Mysteries</h2>
+  <a class="watch" href="https://drive.google.com/file/d/2def456/view" target="_blank">▶️ Watch</a>
+  <a class="download" href="https://drive.google.com/uc?export=download&id=2def456" target="_blank">⬇️ Download</a>
+</section>
+
+<!-- Romance -->
+<section class="movie" data-title="A Love So Beautiful" data-category="romance">
+  <img src="images/alovesobeautiful.jpg" alt="A Love So Beautiful">
+  <h2>A Love So Beautiful</h2>
+  <a class="watch" href="https://drive.google.com/file/d/9romance123/view" target="_blank">▶️ Watch</a>
+  <a class="download" href="https://drive.google.com/uc?export=download&id=9romance123" target="_blank">⬇️ Download</a>
+</section>
+
+<!-- Action -->
+<section class="movie" data-title="Money Heist" data-category="action">
+  <img src="images/images (4).webp" alt="Money Heist">
+  <h2>Money Heist</h2>
+  <a class="watch" href="https://drive.google.com/file/d/7stu888/view" target="_blank">▶️ Watch</a>
+  <a class="download" href="https://drive.google.com/uc?export=download&id=7stu888" target="_blank">⬇️ Download</a>
+</section>
+
+<!-- Thriller -->
+<section class="movie" data-title="All of Us Are Dead" data-category="thriller">
+  <img src="images/All_of_Us_Are_Dead.jpg" alt="All of Us Are Dead">
+  <h2>All of Us Are Dead</h2>
+  <a class="watch" href="https://drive.google.com/file/d/11thriller123/view" target="_blank">▶️ Watch</a>
+  <a class="download" href="https://drive.google.com/uc?export=download&id=11thriller123" target="_blank">⬇️ Download</a>
+</section>
+
+<!-- K-Drama -->
+<section class="movie" data-title="Alchemy of Souls" data-category="kdrama">
+  <img src="images/X06Rd_4f.jpg" alt="Alchemy of Souls">
+  <h2>Alchemy of Souls</h2>
+  <a href="https://drive.google.com/file/d/11/view" target="_blank">▶️ Watch</a>
+  <a href="https://drive.google.com/uc?export=download&id=11" target="_blank">⬇️ Download</a>
+</section>
+
+<section class="movie" data-title="Crash Landing on You" data-category="kdrama">
+  <img src="images/crash-landing-on-you.jpg" alt="Crash Landing on You">
+  <h2>Crash Landing on You</h2>
+  <a href="https://drive.google.com/file/d/12/view" target="_blank">▶️ Watch</a>
+  <a href="https://drive.google.com/uc?export=download&id=12" target="_blank">⬇️ Download</a>
+</section>
+
+<!-- C-Drama -->
+<section class="movie" data-title="Love Between Fairy and Devil" data-category="cdrama">
+  <img src="images/fairydevil.jpg" alt="Love Between Fairy and Devil">
+  <h2>Love Between Fairy and Devil</h2>
+  <a href="https://drive.google.com/file/d/13/view" target="_blank">▶️ Watch</a>
+  <a href="https://drive.google.com/uc?export=download&id=13" target="_blank">⬇️ Download</a>
+</section>
+
+<section class="movie" data-title="Go Ahead" data-category="cdrama">
+  <img src="images/goahead.jpg" alt="Go Ahead">
+  <h2>Go Ahead</h2>
+  <a href="https://drive.google.com/file/d/14/view" target="_blank">▶️ Watch</a>
+  <a href="https://drive.google.com/uc?export=download&id=14" target="_blank">⬇️ Download</a>
+</section>
+
+<!-- Anime -->
+<section class="movie" data-title="Jujutsu Kaisen" data-category="anime">
+  <img src="images/images (3).jpeg" alt="Jujutsu Kaisen">
+  <h2>Jujutsu Kaisen</h2>
+  <a href="https://drive.google.com/file/d/15/view" target="_blank">▶️ Watch</a>
+  <a href="https://drive.google.com/uc?export=download&id=15" target="_blank">⬇️ Download</a>
+</section>
+
+<section class="movie" data-title="Attack on Titan" data-category="anime">
+  <img src="images/aot.jpeg" alt="Attack on Titan">
+  <h2>Attack on Titan</h2>
+  <a href="https://drive.google.com/file/d/16/view" target="_blank">▶️ Watch</a>
+  <a href="https://drive.google.com/uc?export=download&id=16" target="_blank">⬇️ Download</a>
+</section>
+
+<!-- American Series -->
+<section class="movie" data-title="Stranger Things" data-category="mystery">
+  <img src="images/strangerthings.jpeg" alt="Stranger Things">
+  <h2>Stranger Things</h2>
+  <a href="https://drive.google.com/file/d/17/view" target="_blank">▶️ Watch</a>
+  <a href="https://drive.google.com/uc?export=download&id=17" target="_blank">⬇️ Download</a>
+</section>
+
+<section class="movie" data-title="Breaking Bad" data-category="action">
+  <img src="images/images (3).webp" alt="Breaking Bad">
+  <h2>Breaking Bad</h2>
+  <a href="https://drive.google.com/file/d/18/view" target="_blank">▶️ Watch</a>
+  <a href="https://drive.google.com/uc?export=download&id=18" target="_blank">⬇️ Download</a>
+</section>
+
+<section class="movie" data-title="Queen of Tears" data-category="kdrama">
+  <img src="images/queenoftears.png" alt="Queen of Tears">
+  <h2>Queen of Tears</h2>
+  <a href="https://drive.google.com/file/d/19/view" target="_blank">▶️ Watch</a>
+  <a href="https://drive.google.com/uc?export=download&id=19" target="_blank">⬇️ Download</a>
+</section>
+
+<section class="movie" data-title="Bloodhounds" data-category="kdrama">
+  <img src="images/bloodhound.jpg" alt="Bloodhounds">
+  <h2>Bloodhounds</h2>
+  <a href="https://drive.google.com/file/d/20/view" target="_blank">▶️ Watch</a>
+  <a href="https://drive.google.com/uc?export=download&id=20" target="_blank">⬇️ Download</a>
+</section>
+
+<section class="movie" data-title="Solo Leveling" data-category="anime">
+  <img src="images/sololeveling.jpg" alt="Solo Leveling">
+  <h2>Solo Leveling</h2>
+  <a href="https://drive.google.com/file/d/23/view" target="_blank">▶️ Watch</a>
+  <a href="https://drive.google.com/uc?export=download&id=23" target="_blank">⬇️ Download</a>
+</section>
+
+<section class="movie" data-title="Chainsaw Man" data-category="anime">
+  <img src="images/chainsawman.jpeg" alt="Chainsaw Man">
+  <h2>Chainsaw Man</h2>
+  <a href="https://drive.google.com/file/d/24/view" target="_blank">▶️ Watch</a>
+  <a href="https://drive.google.com/uc?export=download&id=24" target="_blank">⬇️ Download</a>
+</section>
+
+<section class="movie" data-title="House of the Dragon" data-category="fantasy">
+  <img src="images/houseofthedragon.jpg" alt="House of the Dragon">
+  <h2>House of the Dragon</h2>
+  <a href="https://drive.google.com/file/d/25/view" target="_blank">▶️ Watch</a>
+  <a href="https://drive.google.com/uc?export=download&id=25" target="_blank">⬇️ Download</a>
+</section>
+
+<section class="movie" data-title="Wednesday" data-category="mystery">
+  <img src="images/wednesday.jpeg" alt="Wednesday">
+  <h2>Wednesday</h2>
+  <a href="https://drive.google.com/file/d/26/view" target="_blank">▶️ Watch</a>
+  <a href="https://drive.google.com/uc?export=download&id=26" target="_blank">⬇️ Download</a>
+</section>
+
+  </main>  <footer>
+    <p>&copy; 2025 Movieflix. Built for entertainment only.</p>
+  </footer>  <script src="script.js"></script></body>
+</html>
